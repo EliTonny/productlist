@@ -13,7 +13,7 @@ exports.getProducts = (req, res, next) => {
     });*/
 
     res.status(200).json({
-        posts: products
+        products: products
       });
   };
   
@@ -26,6 +26,6 @@ exports.getProducts = (req, res, next) => {
       }
     });
     res.status(200).json({
-        posts: resProduct
+        products: resProduct
       }); 
   };
