@@ -6,15 +6,15 @@ const products = [{ title: 'Black Chair', description: 'Nice black chair', price
                 ];
 
 exports.getProducts = (req, res, next) => {
-    /*res.status(200).json({
+    res.status(200).json({
       posts: [{ title: 'Product1', description: 'Product one' },
               { title: 'Product2', description: 'Product two' },
               { title: 'Product3', description: 'Product three' }]
-    });*/
+    });
 
-    res.status(200).json({
+    /*res.status(200).json({
         posts: products
-      });    
+      });    */
   };
   
   exports.getProductsByTitle = (req, res, next) => {
