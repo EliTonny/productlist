@@ -18,7 +18,14 @@ exports.getProducts = (req, res, next) => {
   };
   
   exports.getProductsByTitle = (req, res, next) => {
+    const prodTitle = req.params.title;
+    const resProduct = [];
+    products.forEach(product => {
+      if( product.title.indexOf(prodTitle) >= 0 ) {
+        resProduct.push(product);
+      }
+    });
     res.status(200).json({
-        posts: products
-      });    
+        posts: resProduct
+      }); 
   };
