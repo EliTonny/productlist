@@ -21,7 +21,7 @@ exports.getProducts = (req, res, next) => {
     const prodTitle = req.params.title;
     const resProduct = [];
     products.forEach(product => {
-      if( product.title.indexOf(prodTitle) >= 0 ) {
+    if( product.title.toLowercase().indexOf(prodTitle.toLowercase()) >= 0 ) {
         resProduct.push(product);
       }
     });
