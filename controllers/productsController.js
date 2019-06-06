@@ -26,6 +26,8 @@ exports.getProducts = (req, res, next) => {
       }
     });
     res.status(200).json({
-        products: resProduct
-      }); 
+        response: { "numberOfProducts" : 5,
+                    "start": 0,
+                    products: resProduct}        
+      });  
   };
