@@ -1,4 +1,4 @@
-const products = [{ title: 'Black Chair', customerBenefits: 'Nice black chair', price: '19.99', externalImageLarge:'https://www.ikea.com/us/en/images/products/adde-chair-black__0728277_PE736167_S4.JPG' },
+const products = [{ title: 'Black Chair', description: 'Nice black chair', price: '19.99', externalImageLarge:'https://www.ikea.com/us/en/images/products/adde-chair-black__0728277_PE736167_S4.JPG' },
                   { title: 'White Chair', description: 'Nice white chair', price: '19.99', externalImageLarge: 'https://www.ikea.com/us/en/images/products/adde-chair-white__0728280_PE736170_S4.JPG' },
                   { title: 'Black Table', description: 'Nice black table', price: '49.99', externalImageLarge: 'https://www.ikea.com/us/en/images/products/tarendo-table-black__0241636_PE381441_S4.JPG' },
                   { title: 'White Table', description: 'Nice white table', price: '49.99', externalImageLarge: 'https://www.ikea.com/us/en/images/products/linnmon-adils-table-white__0184578_PE336274_S4.JPG' },
